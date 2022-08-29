@@ -1,9 +1,8 @@
 import Link from 'next/link';
 
-
 function Header() {
   return (
-<header className={""}>
+    <header className="">
       <div className="flex items-center space-x-2 md:space-x-10">
         <img
           src="https://rb.gy/ulxxee"
@@ -11,8 +10,6 @@ function Header() {
           height={100}
           className="cursor-pointer object-contain"
         />
-
-    
 
         <ul className="hidden space-x-4 md:flex">
           <li className="headerLink cursor-default font-semibold text-white hover:text-white">
@@ -25,7 +22,7 @@ function Header() {
         </ul>
       </div>
       <div className="flex items-center space-x-4 text-sm font-light">
-      {/* <SearchIcon className="sm hidden h-6 w-6 sm:inline" />
+        {/* <SearchIcon className="sm hidden h-6 w-6 sm:inline" />
         <p className="hidden lg:inline">Kids</p>
         <BellIcon className="h-6 w-6" />   */}
         <Link href="/account">
