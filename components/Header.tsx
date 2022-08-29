@@ -1,4 +1,8 @@
 import Link from 'next/link';
+import {
+  BellIcon,
+  MagnifyingGlassIcon,
+} from '@heroicons/react/24/solid';
 
 function Header() {
   return (
@@ -22,9 +26,9 @@ function Header() {
         </ul>
       </div>
       <div className="flex items-center space-x-4 text-sm font-light">
-        {/* <SearchIcon className="sm hidden h-6 w-6 sm:inline" />
+        <MagnifyingGlassIcon className="sm hidden h-6 w-6 sm:inline" />
         <p className="hidden lg:inline">Kids</p>
-        <BellIcon className="h-6 w-6" />   */}
+        <BellIcon className="h-6 w-6" />
         <Link href="/account">
           <img
             src="https://rb.gy/g1pwyx"
